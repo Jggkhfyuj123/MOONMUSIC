@@ -260,14 +260,6 @@ def stream_markup_timer(_, videoid, chat_id, played, dur):
                 text="⏭ 10sᴇᴄ",
 
                 callback_data=f"ADMIN 2|{chat_id}",
-
-            ),
-
-        ],
-        [
-            InlineKeyboardButton(
-                text=f"⛦ ᴊᴏɪɴ ⛦",
-              url="https://t.me/vip_creators",
             ),
         ],
     ]
@@ -527,14 +519,6 @@ def telegram_markup_timer(_, chat_id, played, dur):
                 text="⏭ 10sᴇᴄ",
 
                 callback_data=f"ADMIN 2|{chat_id}",
-
-            ),
-
-        ],
-        [
-            InlineKeyboardButton(
-                text=f"⛦ ᴊᴏɪɴ ⛦",
-              url="https://t.me/vip_creators",
             ),
         ],
     ]
@@ -594,14 +578,6 @@ def stream_markup(_, videoid, chat_id):
                 text="⏭ 10sᴇᴄ",
 
                 callback_data=f"ADMIN 2|{chat_id}",
-
-            ),
-
-        ],
-        [
-            InlineKeyboardButton(
-                text=f"⛦ ᴊᴏɪɴ ⛦",
-              url="https://t.me/vip_creators",
             ),
         ],
     ]
@@ -658,14 +634,6 @@ def telegram_markup(_, chat_id):
                 text="⏭ 10sᴇᴄ",
 
                 callback_data=f"ADMIN 2|{chat_id}",
-
-            ),
-
-        ],
-        [
-            InlineKeyboardButton(
-                text=f"⛦ ᴊᴏɪɴ ⛦",
-              url="https://t.me/vip_creators",
             ),
         ],
     ]
@@ -720,15 +688,7 @@ def track_markup(_, videoid, user_id, channel, fplay):
 
                 text="⏭ 10sᴇᴄ",
 
-                callback_data=f"ADMIN 2|{chat_id}",
-
-            ),
-
-        ],
-        [
-            InlineKeyboardButton(
-                text=f"⛦ ᴊᴏɪɴ ⛦",
-              url="https://t.me/vip_creators",
+                callback_data=f"ADMIN 2|{chat_id",
             ),
         ],
     ]
