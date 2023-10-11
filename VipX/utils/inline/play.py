@@ -261,7 +261,7 @@ def stream_markup_timer(_, videoid, chat_id, played, dur):
 
                 callback_data=f"ADMIN 2|{chat_id}",
             ),
-        ],
+        ]
     ]
 
     return buttons
@@ -520,7 +520,7 @@ def telegram_markup_timer(_, chat_id, played, dur):
 
                 callback_data=f"ADMIN 2|{chat_id}",
             ),
-        ],
+        ]
     ]
 
     return buttons
@@ -579,7 +579,7 @@ def stream_markup(_, videoid, chat_id):
 
                 callback_data=f"ADMIN 2|{chat_id}",
             ),
-        ],
+        ]
     ]
 
     return buttons
@@ -635,7 +635,7 @@ def telegram_markup(_, chat_id):
 
                 callback_data=f"ADMIN 2|{chat_id}",
             ),
-        ],
+        ]
     ]
 
     return buttons
@@ -690,7 +690,7 @@ def track_markup(_, videoid, user_id, channel, fplay):
 
                 callback_data=f"ADMIN 2|{chat_id",
             ),
-        ],
+        ]
     ]
 
     return buttons
@@ -730,7 +730,7 @@ def livestream_markup(_, videoid, user_id, mode, channel, fplay):
 
             ),
 
-        ]
+        ],
 
     ]
 
@@ -936,7 +936,7 @@ def queue_markup(_, videoid, chat_id):
                 callback_data=f"ADMIN 2|{chat_id}",
 
             ),
-        ],
+        ]
     ]
 
     return buttons
