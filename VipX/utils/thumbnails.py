@@ -22,9 +22,9 @@ def changeImageSize(maxWidth, maxHeight, image):
     return newImage
 
 
-async def gen_thumb(videoid):
-    if os.path.isfile(f"cache/{videoid}.png"):
-        return f"cache/{videoid}.png"
+async def gen_thumb(videoid, chat_id):
+    if os.path.isfile(f"cache/{videoid}_{chat_id}.png")
+        return f"cache/{videoid}_{chat_id}.png"
 
     url = f"https://www.youtube.com/watch?v={videoid}"
     try:
@@ -143,9 +143,9 @@ async def gen_thumb(videoid):
         return YOUTUBE_IMG_URL
 
         
-async def gen_qthumb(videoid):
-    if os.path.isfile(f"cache/{videoid}.png"):
-        return f"cache/{videoid}.png"
+async def gen_qthumb(videoid, chat_id):
+    if os.path.isfile(f"cache/{videoid}_{chat_id}.png")
+        return f"cache/{videoid}_{chat_id}.png"
 
     url = f"https://www.youtube.com/watch?v={videoid}"
     try:
