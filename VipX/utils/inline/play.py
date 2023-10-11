@@ -976,13 +976,6 @@ def queue_markup(_, videoid, chat_id):
                 callback_data=f"ADMIN 2|{chat_id}",
 
             ),
-
-        ],
-        [
-            InlineKeyboardButton(
-                text=f"⛦ ᴊᴏɪɴ ⛦",
-              url="https://t.me/vip_creators",
-            ),
         ],
     ]
 
