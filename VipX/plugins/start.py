@@ -89,7 +89,7 @@ async def start_comm(client, message: Message, _):
                     details = stats.get(vidid)
                     title = (details["title"][:35]).title()
                     if vidid == "telegram":
-                        msg += f"🔗[ᴛᴇʟᴇɢʀᴀᴍ ᴍᴇᴅɪᴀ](https://t.me/TG_FRIENDSS) ** ᴩʟᴀʏᴇᴅ {count} ᴛɪᴍᴇs**\n\n"
+                        msg += f"🔗[ᴛᴇʟᴇɢʀᴀᴍ ᴍᴇᴅɪᴀ](https://t.me/+An4yRwJGNq5mZWFl) ** ᴩʟᴀʏᴇᴅ {count} ᴛɪᴍᴇs**\n\n"
                     else:
                         msg += f"🔗 [{title}](https://www.youtube.com/watch?v={vidid}) ** played {count} times**\n\n"
                 msg = _["ustats_2"].format(tot, tota, limit) + msg
@@ -173,7 +173,7 @@ async def start_comm(client, message: Message, _):
 ● 📡 **𝐋𝐢𝐧𝐤 ➪ [ᴡᴀᴛᴄʜ ᴏɴ ʏᴏᴜᴛᴜʙᴇ]({link})**☆.♡
 •✰˚♫. * ● ¸ . ★ .¸¸♡¸¸★ :●. *°☆ ¸. ● .. ✷
 
-☆............𝙱𝚈 » [𝚅𝙸𝙿 𝙱𝙾𝚈](https://t.me/the_vip_boy)............☆"""
+☆............𝙱𝚈 » [𝐤𝐚𝐤𝐚𝐬𝐡𝐢](https://t.me/About_IND_K4K4SHI)............☆"""
             key = InlineKeyboardMarkup(
                 [
                     [
@@ -232,7 +232,7 @@ async def start_comm(client, message: Message, _):
             sender_name = message.from_user.first_name
             return await app.send_message(
                 config.LOG_GROUP_ID,
-                f"{message.from_user.mention} 𝐉𝐮𝐬𝐭 𝐒𝐭𝐚𝐫𝐭𝐞𝐝 𝐕𝐢𝐩 𝐁𝐨𝐭😍.\n\n**𝐔𝐬𝐞𝐫 𝐈𝐝:-** {sender_id}\n**𝐍𝐚𝐦𝐞:-** {sender_name}",
+                f"{message.from_user.mention} 𝐉𝐮𝐬𝐭 𝐒𝐭𝐚𝐫𝐭𝐞𝐝 𝐁𝐨𝐭😍.\n\n**𝐔𝐬𝐞𝐫 𝐈𝐝:-** {sender_id}\n**𝐍𝐚𝐦𝐞:-** {sender_name}",
             )
 
 
@@ -264,7 +264,7 @@ async def welcome(client, message: Message):
     if config.PRIVATE_BOT_MODE == str(True):
         if not await is_served_private_chat(message.chat.id):
             await message.reply_text(
-                "**𝐏𝐫𝐢𝐯𝐚𝐭𝐞 𝐕𝐢𝐩 𝐌𝐮𝐬𝐢𝐜 𝐁𝐨𝐭**\n\n𝐎𝐧𝐥𝐲 𝐅𝐨𝐫 𝐓𝐡𝐞 𝐂𝐡𝐚𝐭𝐬 𝐀𝐥𝐥𝐨𝐰𝐞𝐝 𝐁𝐲 𝐌𝐲 𝐎𝐰𝐧𝐞𝐫, 𝐑𝐞𝐪𝐮𝐞𝐬𝐭 𝐈𝐧 𝐌𝐲 𝐎𝐰𝐧𝐞𝐫'𝐬 𝐏𝐦 𝐓𝐨 𝐀𝐥𝐥𝐨𝐰 𝐘𝐨𝐮𝐫 𝐂𝐡𝐚𝐭 𝐀𝐧𝐝 𝐈𝐟 𝐘𝐨𝐮 𝐃𝐨𝐧𝐭 𝐖𝐚𝐧𝐭 𝐓𝐨 𝐃𝐨 𝐓𝐡𝐞𝐧 𝐌𝐚𝐚 𝐂𝐡𝐮𝐝𝐚𝐨👿 𝐛𝐜𝐨𝐳 𝐈'𝐦 𝐋𝐞𝐚𝐯𝐢𝐧𝐠..."
+                "**𝐏𝐫𝐢𝐯𝐚𝐭𝐞 𝐌𝐮𝐬𝐢𝐜 𝐁𝐨𝐭**\n\n𝐎𝐧𝐥𝐲 𝐅𝐨𝐫 𝐓𝐡𝐞 𝐂𝐡𝐚𝐭𝐬 𝐀𝐥𝐥𝐨𝐰𝐞𝐝 𝐁𝐲 𝐌𝐲 𝐎𝐰𝐧𝐞𝐫, 𝐑𝐞𝐪𝐮𝐞𝐬𝐭 𝐈𝐧 𝐌𝐲 𝐎𝐰𝐧𝐞𝐫'𝐬 𝐏𝐦 𝐓𝐨 𝐀𝐥𝐥𝐨𝐰 𝐘𝐨𝐮𝐫 𝐂𝐡𝐚𝐭 𝐀𝐧𝐝 𝐈𝐟 𝐘𝐨𝐮 𝐃𝐨𝐧𝐭 𝐖𝐚𝐧𝐭 𝐓𝐨 𝐃𝐨 𝐓𝐡𝐞𝐧 𝐌𝐚𝐚 𝐂𝐡𝐮𝐝𝐚𝐨👿 𝐛𝐜𝐨𝐳 𝐈'𝐦 𝐋𝐞𝐚𝐯𝐢𝐧𝐠..."
             )
             return await app.leave_chat(message.chat.id)
     else:
