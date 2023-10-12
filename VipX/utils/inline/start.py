@@ -19,11 +19,11 @@ def start_pannel(_, BOT_USERNAME, OWNER: Union[bool, int] = None):
         ],
         [
             InlineKeyboardButton(
-                text="🦋𝐅𝐄𝐀𝐓𝐔𝐑𝐄🦋",
+                text="ꕥ𝐅𝐄𝐀𝐓𝐔𝐑𝐄ꕥ",
                 callback_data="settings_back_helper",
             ),
             InlineKeyboardButton(
-                text="⚙️𝐒𝐄𝐓𝐓𝐈𝐍𝐆⚙️", callback_data="settings_helper"
+                text="☘︎𝐒𝐄𝐓𝐓𝐈𝐍𝐆☘︎", callback_data="settings_helper"
             ),
         ],
      ]
@@ -45,16 +45,16 @@ def private_panel(_, BOT_USERNAME, OWNER: Union[bool, int] = None):
         ],
         [
             InlineKeyboardButton(
-                text="𝐌ᴏʀᴇ🥀", url=f"https://t.me/{CHANNEL_USERNAME}",
+                text="☯︎ 𝐊𝐚𝐤𝐚𝐬𝐡𝐢 ☯︎", url=f"https://t.me/About_IND_K4K4SHI",
             ),
         
             InlineKeyboardButton(
-                text="𝐆𝚁𝙾𝚄𝙿✨", url=f"https://t.me/{GROUP_USERNAME}",
+                text="✩𝐆𝐫𝐨𝐮𝐩☆", url=f"https://t.me/+An4yRwJGNq5mZWFl",
             ),
         ],
         [
             InlineKeyboardButton(
-                text="۞ 𝐅𝙴𝙰𝚃𝚄𝚁𝙴𝚂 ۞", callback_data="settings_back_helper"
+                text="༄ 𝐅𝙴𝙰𝚃𝚄𝚁𝙴𝚂 ༄", callback_data="settings_back_helper"
             )
         ],
      ]
