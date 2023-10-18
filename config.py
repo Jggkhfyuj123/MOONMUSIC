@@ -140,12 +140,12 @@ STRING3 = getenv("STRING_SESSION3", None)
 STRING4 = getenv("STRING_SESSION4", None)
 STRING5 = getenv("STRING_SESSION5", None)
 
-#    __      _______ _____    ___  __ _    _  _____ _____ _____   _____   ____ _______ 
-#    \ \    / /_   _|  __ \   |  \/  | |  | |/ ____|_   _/ ____|  |  _ \ / __ \__   __|
-#     \ \  / /  | | | |__) |  | \  / | |  | | (___   | || |       | |_) | |  | | | |   
-#      \ \/ /   | | |  ___/   | |\/| | |  | |\___ \  | || |       |  _ <| |  | | | |   
-#       \  /   _| |_| |       | |  | | |__| |____) |_| || |____   | |_) | |__| | | |   
-#        \/   |_____|_|       |_|  |_|\____/|_____/|_____\_____|  |____/ \____/  |_|   
+#    __         ____ _____    ___  __ _    _  _____ _____ _____   _____   ____ _______ 
+#    \ \      /_   _|  __     |  \/  | |  | |/ ____|_   _/ ____|  |  _ \ / __ \__   __|
+#     \ \       | | | |__) |  | \  / | |  | | (___   | || |       | |_) | |  | | | |   
+#               | | |  ___/   | |\/| | |  | |\___ \  | || |       |  _ <| |  | | | |   
+#              _| |_| |       | |  | | |__| |____) |_| || |____   | |_) | |__| | | |   
+#             |_____|_|       |_|  |_|\____/|_____/|_____\_____|  |____/ \____/  |_|   
 
                                                                                  
 
@@ -166,66 +166,66 @@ autoclean = []
 
 
 # Images
-START_IMG_URL = getenv("START_IMG_URL", "https://te.legra.ph/file/ecdeac045f4045c198bd6.jpg")
+START_IMG_URL = getenv("START_IMG_URL", "https://graph.org/file/a76623ed7a2f7b10fa66e.jpg")
 
 PING_IMG_URL = getenv(
     "PING_IMG_URL",
-    "https://te.legra.ph/file/ecdeac045f4045c198bd6.jpg",
+    "https://graph.org/file/a76623ed7a2f7b10fa66e.jpg",
 )
 
 PLAYLIST_IMG_URL = getenv(
     "PLAYLIST_IMG_URL",
-    "https://te.legra.ph/file/ecdeac045f4045c198bd6.jpg",
+    "https://graph.org/file/a76623ed7a2f7b10fa66e.jpg",
 )
 
 GLOBAL_IMG_URL = getenv(
     "GLOBAL_IMG_URL",
-    "https://te.legra.ph/file/ecdeac045f4045c198bd6.jpg",
+    "https://graph.org/file/a76623ed7a2f7b10fa66e.jpg",
 )
 
 STATS_IMG_URL = getenv(
     "STATS_IMG_URL",
-    "https://te.legra.ph/file/ecdeac045f4045c198bd6.jpg",
+    "https://graph.org/file/a76623ed7a2f7b10fa66e.jpg",
 )
 
 TELEGRAM_AUDIO_URL = getenv(
     "TELEGRAM_AUDIO_URL",
-    "https://te.legra.ph/file/ecdeac045f4045c198bd6.jpg",
+    "https://graph.org/file/a76623ed7a2f7b10fa66e.jpg",
 )
 
 TELEGRAM_VIDEO_URL = getenv(
     "TELEGRAM_VIDEO_URL",
-    "https://te.legra.ph/file/ecdeac045f4045c198bd6.jpg",
+    "https://graph.org/file/a76623ed7a2f7b10fa66e.jpg",
 )
 
 STREAM_IMG_URL = getenv(
     "STREAM_IMG_URL",
-    "https://te.legra.ph/file/ecdeac045f4045c198bd6.jpg",
+    "https://graph.org/file/a76623ed7a2f7b10fa66e.jpg",
 )
 
 SOUNCLOUD_IMG_URL = getenv(
     "SOUNCLOUD_IMG_URL",
-    "https://te.legra.ph/file/ecdeac045f4045c198bd6.jpg",
+    "https://graph.org/file/a76623ed7a2f7b10fa66e.jpg",
 )
 
 YOUTUBE_IMG_URL = getenv(
     "YOUTUBE_IMG_URL",
-    "https://te.legra.ph/file/ecdeac045f4045c198bd6.jpg",
+    "https://graph.org/file/a76623ed7a2f7b10fa66e.jpg",
 )
 
 SPOTIFY_ARTIST_IMG_URL = getenv(
     "SPOTIFY_ARTIST_IMG_URL",
-    "https://te.legra.ph/file/ecdeac045f4045c198bd6.jpg",
+    "https://graph.org/file/a76623ed7a2f7b10fa66e.jpg",
 )
 
 SPOTIFY_ALBUM_IMG_URL = getenv(
     "SPOTIFY_ALBUM_IMG_URL",
-    "https://te.legra.ph/file/ecdeac045f4045c198bd6.jpg",
+    "https://graph.org/file/a76623ed7a2f7b10fa66e.jpg",
 )
 
 SPOTIFY_PLAYLIST_IMG_URL = getenv(
     "SPOTIFY_PLAYLIST_IMG_URL",
-    "https://te.legra.ph/file/ecdeac045f4045c198bd6.jpg",
+    "https://graph.org/file/a76623ed7a2f7b10fa66e.jpg",
 )
 
 
