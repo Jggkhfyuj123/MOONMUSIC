@@ -222,7 +222,7 @@ def stream_markup_timer(_, videoid, chat_id, played, dur):
           [
             InlineKeyboardButton(
 
-                text="▷",
+                text="ᴘʟᴀʏ",
 
                 callback_data=f"ADMIN Resume|{chat_id}",
 
@@ -230,13 +230,13 @@ def stream_markup_timer(_, videoid, chat_id, played, dur):
 
             InlineKeyboardButton(
 
-                text="II", callback_data=f"ADMIN Pause|{chat_id}"
+                text="ᴘᴀᴜsᴇ", callback_data=f"ADMIN Pause|{chat_id}"
 
             ),
 
             InlineKeyboardButton(
 
-                text="‣‣I", callback_data=f"ADMIN Skip|{chat_id}"
+                text="sᴋɪᴘ", callback_data=f"ADMIN Skip|{chat_id}"
 
             ),
 
@@ -248,7 +248,7 @@ def stream_markup_timer(_, videoid, chat_id, played, dur):
 
             InlineKeyboardButton(
 
-                text="⏮",
+                text="⏮ 10sᴇᴄ",
 
                 callback_data=f"ADMIN 1|{chat_id}",
 
@@ -257,15 +257,25 @@ def stream_markup_timer(_, videoid, chat_id, played, dur):
 
             InlineKeyboardButton(
 
-                text="⏭",
+                text="⏭ 10sᴇᴄ",
 
                 callback_data=f"ADMIN 2|{chat_id}",
+
+            ),
+
+        ],
+        [
+            InlineKeyboardButton(
+                text=f"❣️ 𝗝𝗢𝗜𝗡 ❣️",
+              url="https://t.me/+An4yRwJGNq5mZWFl",
             ),
         ],
     ]
-        
+
     return buttons
                 
+
+
 def telegram_markup_timer(_, chat_id, played, dur):
     played_sec = time_to_seconds(played)
     duration_sec = time_to_seconds(dur)
@@ -479,7 +489,7 @@ def telegram_markup_timer(_, chat_id, played, dur):
             [
             InlineKeyboardButton(
 
-                text="▷",
+                text="ᴘʟᴀʏ",
 
                 callback_data=f"ADMIN Resume|{chat_id}",
 
@@ -487,13 +497,13 @@ def telegram_markup_timer(_, chat_id, played, dur):
 
             InlineKeyboardButton(
 
-                text="II", callback_data=f"ADMIN Pause|{chat_id}"
+                text="ᴘᴀᴜsᴇ", callback_data=f"ADMIN Pause|{chat_id}"
 
             ),
 
             InlineKeyboardButton(
 
-                text="‣‣I", callback_data=f"ADMIN Skip|{chat_id}"
+                text="sᴋɪᴘ", callback_data=f"ADMIN Skip|{chat_id}"
 
             ),
 
@@ -505,7 +515,7 @@ def telegram_markup_timer(_, chat_id, played, dur):
 
             InlineKeyboardButton(
 
-                text="⏮",
+                text="⏮ 10sᴇᴄ",
 
                 callback_data=f"ADMIN 1|{chat_id}",
 
@@ -514,9 +524,17 @@ def telegram_markup_timer(_, chat_id, played, dur):
 
             InlineKeyboardButton(
 
-                text="⏮",
+                text="⏭ 10sᴇᴄ",
 
                 callback_data=f"ADMIN 2|{chat_id}",
+
+            ),
+
+        ],
+        [
+            InlineKeyboardButton(
+                text=f"❣️ 𝗝𝗢𝗜𝗡 ❣️",
+              url="https://t.me/+An4yRwJGNq5mZWFl",
             ),
         ],
     ]
@@ -539,7 +557,7 @@ def stream_markup(_, videoid, chat_id):
             [
             InlineKeyboardButton(
 
-                text="▷",
+                text="ᴘʟᴀʏ",
 
                 callback_data=f"ADMIN Resume|{chat_id}",
 
@@ -547,13 +565,13 @@ def stream_markup(_, videoid, chat_id):
 
             InlineKeyboardButton(
 
-                text="II", callback_data=f"ADMIN Pause|{chat_id}"
+                text="ᴘᴀᴜsᴇ", callback_data=f"ADMIN Pause|{chat_id}"
 
             ),
 
             InlineKeyboardButton(
 
-                text="‣‣I", callback_data=f"ADMIN Skip|{chat_id}"
+                text="sᴋɪᴘ", callback_data=f"ADMIN Skip|{chat_id}"
 
             ),
 
@@ -564,7 +582,7 @@ def stream_markup(_, videoid, chat_id):
 
             InlineKeyboardButton(
 
-                text="⏮",
+                text="⏮ 10sᴇᴄ",
 
                 callback_data=f"ADMIN 1|{chat_id}",
 
@@ -573,9 +591,17 @@ def stream_markup(_, videoid, chat_id):
 
             InlineKeyboardButton(
 
-                text="⏭",
+                text="⏭ 10sᴇᴄ",
 
                 callback_data=f"ADMIN 2|{chat_id}",
+
+            ),
+
+        ],
+        [
+            InlineKeyboardButton(
+                text=f"❣️ 𝗝𝗢𝗜𝗡 ❣️",
+              url="https://t.me/+An4yRwJGNq5mZWFl",
             ),
         ],
     ]
@@ -597,7 +623,7 @@ def telegram_markup(_, chat_id):
             [
             InlineKeyboardButton(
 
-                text="▷",
+                text="ᴘʟᴀʏ",
 
                 callback_data=f"ADMIN Resume|{chat_id}",
 
@@ -605,13 +631,13 @@ def telegram_markup(_, chat_id):
 
             InlineKeyboardButton(
 
-                text="II", callback_data=f"ADMIN Pause|{chat_id}"
+                text="ᴘᴀᴜsᴇ", callback_data=f"ADMIN Pause|{chat_id}"
 
             ),
 
             InlineKeyboardButton(
 
-                text="‣‣I", callback_data=f"ADMIN Skip|{chat_id}"
+                text="sᴋɪᴘ", callback_data=f"ADMIN Skip|{chat_id}"
 
             ),
             
@@ -620,7 +646,7 @@ def telegram_markup(_, chat_id):
 
             InlineKeyboardButton(
 
-                text="⏮",
+                text="⏮ 10sᴇᴄ",
 
                 callback_data=f"ADMIN 1|{chat_id}",
 
@@ -629,9 +655,17 @@ def telegram_markup(_, chat_id):
 
             InlineKeyboardButton(
 
-                text="⏭",
+                text="⏭ 10sᴇᴄ",
 
                 callback_data=f"ADMIN 2|{chat_id}",
+
+            ),
+
+        ],
+        [
+            InlineKeyboardButton(
+                text=f"❣️ 𝗝𝗢𝗜𝗡 ❣️",
+              url="https://t.me/+An4yRwJGNq5mZWFl",
             ),
         ],
     ]
@@ -675,7 +709,7 @@ def track_markup(_, videoid, user_id, channel, fplay):
 
             InlineKeyboardButton(
 
-                text="⏮",
+                text="⏮ 10sᴇᴄ",
 
                 callback_data=f"ADMIN 1|{chat_id}",
 
@@ -684,9 +718,17 @@ def track_markup(_, videoid, user_id, channel, fplay):
 
             InlineKeyboardButton(
 
-                text="⏭",
+                text="⏭ 10sᴇᴄ",
 
                 callback_data=f"ADMIN 2|{chat_id}",
+
+            ),
+
+        ],
+        [
+            InlineKeyboardButton(
+                text=f"❣️ 𝗝𝗢𝗜𝗡 ❣️",
+              url="https://t.me/+An4yRwJGNq5mZWFl",
             ),
         ],
     ]
@@ -728,7 +770,7 @@ def livestream_markup(_, videoid, user_id, mode, channel, fplay):
 
             ),
 
-        ],
+        ]
 
     ]
 
@@ -894,7 +936,7 @@ def queue_markup(_, videoid, chat_id):
             [
             InlineKeyboardButton(
 
-                text="▷",
+                text="ᴘʟᴀʏ",
 
                 callback_data=f"ADMIN Resume|{chat_id}",
 
@@ -902,13 +944,13 @@ def queue_markup(_, videoid, chat_id):
 
             InlineKeyboardButton(
 
-                text="II", callback_data=f"ADMIN Pause|{chat_id}"
+                text="ᴘᴀᴜsᴇ", callback_data=f"ADMIN Pause|{chat_id}"
 
             ),
 
             InlineKeyboardButton(
 
-                text="‣‣I", callback_data=f"ADMIN Skip|{chat_id}"
+                text="sᴋɪᴘ", callback_data=f"ADMIN Skip|{chat_id}"
 
             ),
 
@@ -920,7 +962,7 @@ def queue_markup(_, videoid, chat_id):
 
             InlineKeyboardButton(
 
-                text="⏮",
+                text="⏮ 10sᴇᴄ",
 
                 callback_data=f"ADMIN 1|{chat_id}",
 
@@ -929,10 +971,17 @@ def queue_markup(_, videoid, chat_id):
 
             InlineKeyboardButton(
 
-                text="⏭",
+                text="⏭ 10sᴇᴄ",
 
                 callback_data=f"ADMIN 2|{chat_id}",
 
+            ),
+
+        ],
+        [
+            InlineKeyboardButton(
+                text=f"❣️ 𝗝𝗢𝗜𝗡 ❣️",
+              url="https://t.me/+An4yRwJGNq5mZWFl",
             ),
         ],
     ]
