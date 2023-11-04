@@ -13,17 +13,17 @@ def start_pannel(_, BOT_USERNAME, OWNER: Union[bool, int] = None):
     buttons = [
         [
             InlineKeyboardButton(
-                text="•─╼⃝𖠁𝐀𝙳𝙳 ◈ 𝐌𝙴 ◈ 𝐁𝙰𝙱𝚈𖠁⃝╾─•",
+                text="➕𝗔∂∂ 𝗠є 𝗬συя 𝗚яσυρ➕",
                 url=f"https://t.me/{BOT_USERNAME}?startgroup=true",
             )
         ],
         [
             InlineKeyboardButton(
-                text="ꕥ𝐅𝐄𝐀𝐓𝐔𝐑𝐄ꕥ",
+                text="✫𝐅𝐄𝐀𝐓𝐔𝐑𝐄✫",
                 callback_data="settings_back_helper",
             ),
             InlineKeyboardButton(
-                text="☘︎𝐒𝐄𝐓𝐓𝐈𝐍𝐆☘︎", callback_data="settings_helper"
+                text="✫𝐒𝐄𝐓𝐓𝐈𝐍𝐆✫", callback_data="settings_helper"
             ),
         ],
      ]
@@ -38,14 +38,14 @@ def private_panel(_, BOT_USERNAME, OWNER: Union[bool, int] = None):
     buttons = [
         [
             InlineKeyboardButton(
-                text="•─╼⃝𖠁𝐀𝙳𝙳 ◈ 𝐌𝙴 ◈ 𝐁𝙰𝙱𝚈𖠁⃝╾─•",
+                text="➕𝗔∂∂ 𝗠є 𝗬συя 𝗚яσυρ➕",
                 url=f"https://t.me/{BOT_USERNAME}?startgroup=true",
             )
         
         ],
         [
             InlineKeyboardButton(
-                text="☯︎ 𝐊𝐚𝐤𝐚𝐬𝐡𝐢 ☯︎", url=f"https://t.me/About_IND_K4K4SHI",
+                text="✫𝗢𝗪𝗡𝗘𝗥✫", url=f"https://t.me/IND_K4K4SHI",
             ),
         
             InlineKeyboardButton(
@@ -54,7 +54,7 @@ def private_panel(_, BOT_USERNAME, OWNER: Union[bool, int] = None):
         ],
         [
             InlineKeyboardButton(
-                text="༄ 𝐅𝙴𝙰𝚃𝚄𝚁𝙴𝚂 ༄", callback_data="settings_back_helper"
+                text="✫𝗖𝗢𝗠𝗠𝗔𝗠𝗗𝗦✫", callback_data="settings_back_helper"
             )
         ],
      ]
