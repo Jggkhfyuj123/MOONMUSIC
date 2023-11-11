@@ -14,12 +14,12 @@
     "env": {
       "API_ID": {
         "description": "𝐆𝐄𝐓 𝐀𝐏𝐈 𝐈𝐃 𝐅𝐑𝐎𝐌 https://my.telegram.org",
-        "value": "19333714",
+        "value": "",
         "required": true
       },
       "API_HASH": {
         "description": "𝐆𝐄𝐓 𝐀𝐏𝐈 𝐇𝐀𝐒𝐇 𝐅𝐑𝐎𝐌 https://my.telegram.org",
-        "value": "50fec2c65861d4d0d577d7d012edf95e",
+        "value": "",
         "required": true
       },
       "BOT_TOKEN": {
@@ -29,12 +29,12 @@
       },
       "MONGO_DB_URI": {
         "description": "𝐆𝐄𝐓 𝐀 𝐌𝐎𝐍𝐆𝐎𝐃𝐁 𝐔𝐑𝐋 𝐅𝐑𝐎𝐌 https://cloud.mongodb.com. 𝐈𝐅 𝐘𝐎𝐔 𝐃𝐎𝐍𝐓 𝐇𝐀𝐕𝐄 𝐓𝐇𝐄𝐍 𝐔𝐒𝐄 𝐀𝐋𝐑𝐄𝐀𝐃𝐘 𝐅𝐈𝐋𝐋𝐄𝐃 𝐌𝐎𝐍𝐆𝐎.",
-        "value": "mongodb+srv://navi:navi @cluster0.ckp6ijn.mongodb.net/?retryWrites=true&w=majority",
+        "value": "",
         "required": true
       },
       "OWNER_ID": {
         "description": "𝐅𝐈𝐋𝐋 𝐇𝐄𝐑𝐄 𝐎𝐖𝐍𝐄𝐑 𝐈𝐃, 𝐔 𝐂𝐀𝐍 𝐔𝐒𝐄 𝐌𝐎𝐑𝐄 𝐏𝐄𝐑𝐒𝐎𝐍 𝐈𝐃 𝐁𝐘 𝐆𝐈𝐕𝐄𝐈𝐍𝐆 𝐒𝐏𝐀𝐂𝐄 𝐀𝐅𝐓𝐄𝐑 𝐎𝐍𝐄 𝐈𝐃.",
-        "value": "5491313078",
+        "value": "",
         "required": true
       },
       "STRING_SESSION": {
@@ -56,7 +56,7 @@
 
        "description": "𝐅𝐈𝐋𝐋 𝐇𝐄𝐑𝐄 𝐘𝐎𝐔𝐑 𝐆𝐑𝐎𝐔𝐏 𝐔𝐒𝐄𝐑𝐍𝐀𝐌𝐄 ( 𝗪𝗜𝗧𝗛𝗢𝗨𝗧 @ ) , {𝐈𝐅 𝐆𝐑𝐎𝐔𝐏 𝐈𝐒 𝐏𝐑𝐈𝐕𝐀𝐓𝐄 𝐓𝐇𝐄𝐍 𝐅𝐈𝐋𝐋 𝐀𝐅𝐓𝐄𝐑 (https://t.me/) 𝐏𝐚𝐫𝐭𝐬, 𝐋𝐢𝐤𝐞+85vaorE-w8VkYTBl) ",
 
-       "value": "https://t.me/+An4yRwJGNq5mZWFl",
+       "value": "",
 
        "required": false
 
